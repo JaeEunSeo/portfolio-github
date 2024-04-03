@@ -154,7 +154,7 @@ header {
 
 /*main contents*/
 main .main-pg {
-  position: fixed;
+  position: absolute;
   left: 400px;
 }
 
