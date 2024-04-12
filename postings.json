@@ -1,17 +1,1 @@
-{
-  "title": {
-    "0": "[RecSys] Latent Factor \uc54c\uc544\ubcf4\uae30",
-    "1": "[RecSys] LightGCN: Simplifying and Powering Graph ConvolutionNetwork for Recommendation",
-    "2": "[RL] Deep Reinforcement Learning From Human References : RLHF"
-  },
-  "img_url": {
-    "0": "https://blog.kakaocdn.net/dn/FXAJT/btsF3l4YlnI/UFBT7KjPDm2vk00OEMiGxk/img.png",
-    "1": "https://blog.kakaocdn.net/dn/bbvw8z/btsFZwydImp/3AnhgA5zOApJMGaubJSrAK/img.png",
-    "2": "https://blog.kakaocdn.net/dn/0LhRV/btsFA6TehSq/KLZoSGF5oByNUo1w2D6TFk/img.png"
-  },
-  "url": {
-    "0": "https://summergurl.tistory.com/17",
-    "1": "https://summergurl.tistory.com/16",
-    "2": "https://summergurl.tistory.com/15"
-  }
-}
+{"title":{"0":"[RecSys] KGAT : Knowledge Graph Attention Network forRecommendation \ub17c\ubb38 \ub9ac\ubdf0, \uc218\uc2dd \uc124\uba85","1":"[RecSys] Latent Factor \uc54c\uc544\ubcf4\uae30","2":"[RecSys] LightGCN: Simplifying and Powering Graph ConvolutionNetwork for Recommendation"},"img_url":{"0":"https:\/\/blog.kakaocdn.net\/dn\/FkEl7\/btsGnMOwGlP\/8Y1WRSXIyvSfvmW5OCPxG0\/img.png","1":"https:\/\/blog.kakaocdn.net\/dn\/FXAJT\/btsF3l4YlnI\/UFBT7KjPDm2vk00OEMiGxk\/img.png","2":"https:\/\/blog.kakaocdn.net\/dn\/bbvw8z\/btsFZwydImp\/3AnhgA5zOApJMGaubJSrAK\/img.png"},"url":{"0":"https:\/\/summergurl.tistory.com\/18","1":"https:\/\/summergurl.tistory.com\/17","2":"https:\/\/summergurl.tistory.com\/16"}}
