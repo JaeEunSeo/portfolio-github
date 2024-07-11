@@ -31,3 +31,27 @@ function changeLink(number) {
 
 changeLink(0);
 changeLink(1);
+
+let menuEvent = document.querySelectorAll(".transpose");
+
+console.log(menuEvent);
+menuEvent.forEach((element) => {
+  element.addEventListener(
+    "mouseover",
+    function (event) {
+      event.target.style.color = "#939185";
+      event.target.style.cursor = "pointer";
+    },
+    false
+  );
+});
+
+menuEvent.forEach((element) => {
+  element.addEventListener(
+    "mouseout",
+    function (event) {
+      event.target.style.color = "var(--color-secondary)";
+    },
+    false
+  );
+});
