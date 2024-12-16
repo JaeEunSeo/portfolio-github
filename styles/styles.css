@@ -176,7 +176,6 @@ main .main-pg {
 }
 
 div#tistoryposts {
-  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-end;
