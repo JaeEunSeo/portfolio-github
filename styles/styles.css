@@ -6,19 +6,12 @@
 }
 
 :root {
-  --color-primary: #ebc5c0;
   --color-secondary: rgb(72, 64, 77);
-  --color-btn: #d8cdb0;
-  --color-font: #1c2135;
-  --color-white: #ffffff;
   --color-black: #000;
   --color-grey0: #f8f8f8;
   --color-grey-1: #dbe1e8;
   --color-grey-2: #b2becd;
   --color-grey-3: #6c7983;
-  --color-grey-4: rgb(69, 78, 86);
-  --color-grey-5: #2a2e35;
-  --color-grey-6: #12181b;
   --br-sm-2: 14px;
   --box-shadow: 0 epx 15px rgba(0, 0, 0, 2);
 }
@@ -131,9 +124,10 @@ header {
   flex-direction: column;
   position: fixed;
   padding: 20px;
-  width: 400px;
-  font-family: "DM Serif Display", serif;
-  background-color: var(--color-primary);
+  width: 350px;
+  font-family: "InConsolata", serif;
+  border-right: 0.5px solid;
+  border-color: var(--color-secondary);
   left: 0;
   top: 0;
 }
@@ -154,7 +148,8 @@ header {
 /*main contents*/
 main .main-pg {
   position: absolute;
-  left: 400px;
+  left: 350px;
+  margin-top: 10px;
 }
 
 .main-pg .contents {
@@ -172,7 +167,17 @@ main .main-pg {
   border-radius: 1rem;
   padding: 10px;
   margin-top: 20px;
-  font-family: "Hahmlet", serif;
+  font-family: "Inconsolata", "Nanum Gothic Coding", serif;
+}
+
+.conference {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  width: 100%;
+  font-size: 17px;
+  margin-top: 5px;
+  gap: 2px;
 }
 
 div#tistoryposts {
@@ -194,6 +199,7 @@ div#tistoryposts {
 
 /* Independent components */
 .icon-section {
+  align-items: center;
   display: flex;
   justify-content: center;
 }
@@ -215,7 +221,7 @@ div#tistoryposts {
   align-items: center;
 }
 .main-btn .btn-icon {
-  background-color: var(--color-btn);
+  background-color: var(--color-secondary);
   display: flex;
   align-items: center;
   justify-content: center;
