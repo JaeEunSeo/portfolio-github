@@ -67,7 +67,7 @@ header {
 
 .active {
   display: flex;
-  position: fixed;
+  position: absolute;
 }
 
 /* Header-content */
@@ -89,8 +89,7 @@ header {
   padding: 20px;
   width: 380px;
   font-family: "InConsolata", serif;
-  border-right: 1px dotted;
-  border-color: var(--color-secondary);
+
   left: 0;
   top: 0;
 }
@@ -113,6 +112,8 @@ main .main-pg {
   position: absolute;
   left: 380px;
   margin-top: 10px;
+  border-left: 1px dotted;
+  border-color: var(--color-secondary);
 }
 
 .main-pg .contents {
@@ -131,6 +132,11 @@ main .main-pg {
   padding: 10px;
   margin-top: 20px;
   font-family: "Inconsolata", "Nanum Gothic Coding", serif;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .conference {
